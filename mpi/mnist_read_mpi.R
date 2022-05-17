@@ -1,4 +1,4 @@
-remotes::install_github("RBigData/pbdIO")
+install.packages("pbdMPI")
 
 suppressMessages(library(rhdf5))
 suppressMessages(library(pbdIO))
