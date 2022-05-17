@@ -1,3 +1,5 @@
+remotes::install_github("RBigData/pbdIO")
+
 suppressMessages(library(rhdf5))
 suppressMessages(library(pbdIO))
 file = "/scratch/project/dd-21-42/data/mnist/train.hdf5"
