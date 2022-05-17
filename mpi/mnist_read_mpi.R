@@ -1,4 +1,7 @@
 install.packages("pbdMPI")
+remotes::install_github("RBigData/pbdIO")
+install.packages("BiocManager")
+BiocManager::install("rhdf5")
 
 suppressMessages(library(rhdf5))
 suppressMessages(library(pbdIO))
